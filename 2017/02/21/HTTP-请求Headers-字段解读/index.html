@@ -107,16 +107,16 @@
 
 
 
-<meta name="description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。">
+<meta name="description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。HTT">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HTPP 请求Headers 字段解读">
 <meta property="og:url" content="http://yoursite.com/2017/02/21/HTTP-请求Headers-字段解读/index.html">
 <meta property="og:site_name" content="licui’s blog">
-<meta property="og:description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。">
-<meta property="og:updated_time" content="2017-02-21T07:45:41.000Z">
+<meta property="og:description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。HTT">
+<meta property="og:updated_time" content="2017-02-21T07:47:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTPP 请求Headers 字段解读">
-<meta name="twitter:description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。">
+<meta name="twitter:description" content="HTTP Headers字段解读  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。HTT">
 
 
 
@@ -394,25 +394,7 @@
       
 
       
-        <p>HTTP Headers字段解读<br>  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。<br><!-- HTTP Request
-Host:
-一个HTTP请求会发送至一个特定的IP地址，但是大部分服务器都有在同一IP地址下托管多个网站的能力，那么服务器必须知道浏览器请求的是哪个域名下的资源。
-如：Host:dev.shaco.hsohealth.com 
-在PHP中，可以通过$_SERVER['HTTP_HOST']或$_SERVER['SERVER_NAME']来查看。
-User-Agent:
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 (.NET CLR 3.5.30729)  
-这个头部可以携带如下几条信息：
-浏览器名和版本号
-操作系统名和版本号
-默认语言
-这就是某些网站用来收集访客信息的一般手段。例如，你可以判断访客是否使用手机访问你的网站，然后决定是否将他们引导至一个在低分辨率下表现良好的移动网站。
-Accept-Language:
-Accept-Language:en-us,en;q=0.5
-这个信息可以说明用户的默认语言设置。如果网站有不同的语言版本，那么就可以通过这个信息来重定向用户的浏览器。
-Accept-Encoding:
-Accept-Encoding:gzip,deflate
-大部分的现代浏览器都支持gzip压缩，并会把这一信息报告给服务器。这时服务器就会把压缩过的HTML发送给浏览器。这可以减少近80%的文件大小，以节省下载时间和宽带。
---></p>
+        <p>HTTP Headers字段解读<br>  如果大家借助抓包工具或者浏览器对网路请求进行过抓取的话，一定对HTTP Request 和HTTP Response 不陌生，包括请求的类型（POST,GET,UPDATE,DELETE）,需要传递的参数，服务器响应的数据结构等，但是估计好多人都没有注意Headers里包含的字段以及对应关系，现在因为要构造URL请求的Headers字段，所特意整理了一下。<br><!-- 查看更多 --><br>HTTP Request<br>Host:<br>一个HTTP请求会发送至一个特定的IP地址，但是大部分服务器都有在同一IP地址下托管多个网站的能力，那么服务器必须知道浏览器请求的是哪个域名下的资源。<br>如：Host:dev.shaco.hsohealth.com<br>在PHP中，可以通过$_SERVER[‘HTTP_HOST’]或$_SERVER[‘SERVER_NAME’]来查看。<br>User-Agent:<br>User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 (.NET CLR 3.5.30729)<br>这个头部可以携带如下几条信息：<br>浏览器名和版本号<br>操作系统名和版本号<br>默认语言<br>这就是某些网站用来收集访客信息的一般手段。例如，你可以判断访客是否使用手机访问你的网站，然后决定是否将他们引导至一个在低分辨率下表现良好的移动网站。<br>Accept-Language:<br>Accept-Language:en-us,en;q=0.5<br>这个信息可以说明用户的默认语言设置。如果网站有不同的语言版本，那么就可以通过这个信息来重定向用户的浏览器。<br>Accept-Encoding:<br>Accept-Encoding:gzip,deflate<br>大部分的现代浏览器都支持gzip压缩，并会把这一信息报告给服务器。这时服务器就会把压缩过的HTML发送给浏览器。这可以减少近80%的文件大小，以节省下载时间和宽带。</p>
 
       
     </div>
